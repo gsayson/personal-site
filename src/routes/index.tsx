@@ -38,7 +38,7 @@ function StackSection() {
         <section class="mb-16 flex items-center justify-center text-left m-8" id="s2">
             <Motion.div class="md:w-2/3" initial={{ opacity: 0 }} inView={{ opacity: 1 }} transition={{ duration: 1, easing: "ease-in-out" }}>
                 <h1 class="max-6-xs text-5xl my-8 font-semibold">My stack</h1>
-                <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <Card title="SolidJS" description="A simple and highly performant reactive library for building user interfaces, and it's my most favourite library as of now. This website is built with it!" iconURL="/img/logos/solid.svg"/>
                     <Card title="React" description="The first-ever UI library I used, when I was just getting into frontend development. It's my second favourite, after SolidJS." iconURL="/img/logos/react.svg" rotate/>
                     <Card title="NodeJS" description="The first-ever serverside JavaScript runtime." iconURL="/img/logos/nodejs.svg"/>
