@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(../public/manrope.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
